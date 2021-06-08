@@ -1,7 +1,8 @@
 # wordpress-logs
 Function for WordPress to easily debug PHP
 
-
+<?php
+echo 'hi';
 /*
 * Write PHP data to a debug.log file to the content folder.
 * This requires enabling debug in the wp-config.php file (see example below)
@@ -23,3 +24,4 @@ if ( ! function_exists( 'write_log' ) ) {
 // define('WP_DEBUG_LOG', true);
 // set_time_limit(1800);
 //----------------------------------
+?>
